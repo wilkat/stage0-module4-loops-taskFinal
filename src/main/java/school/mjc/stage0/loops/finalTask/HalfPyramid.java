@@ -4,11 +4,11 @@ public class HalfPyramid {
     public void printHalfPyramid(int cathetusLength) {
             int i, j;
             for (i = 1; i <= cathetusLength; i++) {
-                for(j = i; j <= cathetusLength; j++) {
+                for(j = i; j < cathetusLength; j++) {
                     System.out.print(" ");
                 }
 
-                for (j = 1; j <= i; j++) {
+                for (j = 0; j < i; j++) {
                     System.out.print("*");
                 }
                 System.out.println();

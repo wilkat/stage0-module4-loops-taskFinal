@@ -10,17 +10,17 @@ public class Pyramid {
 
             int x = cathetusLength + 1 - i;
             int y = 2;
-             for(j = 1 ; j <= i * 2; j++) {
+             for(j = 1 ; j <= i; j++) {
                 System.out.print(" ");
             }
             for (j = 1; j <= num; j++) {
 
-                System.out.print(x + " ");
+                System.out.print(x);
                 x--;
             }
             //v++;
             for (j = num - 1; j >= 1; j--){
-                System.out.print(y + " ");
+                System.out.print(y);
                 y++;
             }
             System.out.println();
